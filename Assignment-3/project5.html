@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<style>
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+    body{
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  main{
+    height: 100vh;
+    width: 100%;
+    position:fixed;
+    background: url('bg.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+  }
+  /* body{
+     height: 100%;
+     width: 100%;
+      background: url("bg.png");
+     background-size: 100% 100%;
+      background-repeat: no-repeat;
+      
+      background-attachment: fixed;
+  } */
+  nav{
+    display: flex;
+    background-color: black;
+    color: aliceblue;
+  }
+  nav .logocontainer{
+    margin: 20px;
+    margin-left: 80px;
+  }
+  nav .logo{
+    height: 30px;
+
+  }
+  nav .line{
+    padding-top: 3px;
+    padding: 3px 30px 4px 50px;
+    font-size: 40px;
+  }
+
+  nav .navlist{
+    display: flex;
+  }
+  nav .navlist .navitem{
+    list-style: none;
+    padding: 20px;
+
+  }
+  nav .tokenbtn{
+    margin-top: 20px;
+    margin-left: 25%;
+    
+  }
+  nav .tokenbtn .token{
+    padding: 5px 25px 5px 25px;
+    font-size: 15px;
+    background-color:blueviolet;
+    color: aliceblue;
+  }
+  main h1{
+    padding-top: 5%;
+    font-size: 70px;
+    color: aliceblue;
+  }
+  main p{
+    font-size: 25px;
+    color: aliceblue;
+  }
+  main .mainbtn{
+    padding: 13px;
+    font-size: 20px;
+    background-color:blueviolet;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+ 
+
+</style>
+<body>
+    <div></div>
+    <nav>
+        <div class="logocontainer"><img src="white-logo.png" alt="logo" class="logo"></div>
+        <div class="line">|</div>
+        <ul class="navlist">
+            <li class="navitem">Apps</li>
+            <li class="navitem">DAO</li>
+            <li class="navitem">Technology</li>
+            <li class="navitem">Token</li>
+            <li class="navitem">Contributors</li>
+        </ul>
+        <div class="tokenbtn"><button class="token">Buy 1 Token</button></div>
+    </nav>
+    <main>
+        <center>
+        <h1 class="hero-heading">Lets build a better <br> tomorrow, together.</h1>
+        <p>
+            Buy 1 Token. Join the DAO. Change the world
+          </p>
+          <br>
+          <br>
+          <button class="mainbtn">Request Early Access</button>
+    </center>
+     
+    </main>
+</div>
+    
+</body>
+</html>
