@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+  body{
+    font-family: 'Poppins', sans-serif;
+  }
+  header{
+    display: flex;
+
+  }
+  header .logo{
+    margin: 30px;
+  }
+  header nav{
+    display: flex;
+    margin-top: 30px;
+  }
+  header nav li{
+    list-style: none;
+    padding: 20px;
+  }
+  header nav li:hover{
+    font-weight: 700;
+  }
+  header .contact{
+    background-color:blueviolet;
+    color: aliceblue;
+    border: none;
+    border-radius: 5px;
+    margin: 40px;
+    font-size: 18px;
+    padding: 10px 14px;
+    margin-left: 400px;
+
+  }
+ header .contact:hover{
+    background-color: blue;
+ }
+  main{
+    display: flex;
+  }
+  main div{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  main .mainleft h1{
+    font-size: 45px;
+    color: rgb(14, 49, 14);
+    padding-top: 60px;
+  }
+  main .mainleft h1 b{
+    color: blueviolet;
+  }
+  main .mainleft .showservice{
+    background-color: blueviolet;
+    color:azure;
+    border: none;
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 10px 14px;
+  }
+  main .mainleft .showservice:hover{
+    background-color: blue;
+  }
+  
+  main .mainleft{
+    margin-left: 45px;
+  }
